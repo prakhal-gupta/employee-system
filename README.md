@@ -5,6 +5,9 @@
 
 This project is a web-based Employee Management System built with React. It allows for managing employee details, viewing data in an organized manner, and performing various operations like adding, editing, and deleting employee records.
 
+## Deployed URL
+   https://employee-management-prakhal.netlify.app
+
 ## Prerequisites
 
 Before running the project, ensure you have the following installed on your machine:
