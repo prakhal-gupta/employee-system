@@ -32,7 +32,7 @@ const EditUser = () => {
             setLoading(false);
         };
 
-        const errorFn = (error) => {
+        const errorFn = () => {
             displayMessage(ERROR_MSG_TYPE, "Error fetching user data. Please try again.");
             setLoading(false);
         };
@@ -117,7 +117,7 @@ const EditUser = () => {
             loadUser();
             setLoading(false);
         };
-        const errorFn = (error) => {
+        const errorFn = () => {
             displayMessage(ERROR_MSG_TYPE, "Error deleting user. Please try again.");
             setLoading(false);
         };
